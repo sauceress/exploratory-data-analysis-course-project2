@@ -17,7 +17,7 @@ bwiLAXagg$fips[bwiLAXagg$fips=="24510"]='Baltimore'
 bwiLAXagg$fips[bwiLAXagg$fips=="06037"]='Los Angeles'
 
 g <- ggplot(bwiLAXagg, aes(x=year,y=Emissions))+
-  ggtitle("PM2.5 from Motor Vehicle Emissions:\nBaltimore City, MD and Los Angeles, CA (1999 - 2008)") ##Use this title for the plot
+  ggtitle("PM2.5 Motor Vehicle Emissions:\nBaltimore City, MD and Los Angeles, CA (1999 - 2008)") ##Use this title for the plot
   
 g + 
   geom_bar(stat = "identity", width = 0.5, colour="black", fill="#003380") +

@@ -12,7 +12,7 @@ barplot(
   names.arg=aggBaltimore$year,
   xlab="Year",
   ylab="PM2.5 Emissions (in Tons)",
-  main="Total PM2.5 Emissions: Baltimore, Maryland", col = "purple"
+  main="Total PM2.5 Emissions: Baltimore City, Maryland", col = "purple"
 )
 
 dev.off()

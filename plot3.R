@@ -16,7 +16,7 @@ typeBaltimore <- aggregate(Emissions ~ year + type, baltimore, sum)
 
 
 g <- ggplot(typeBaltimore, aes(year, Emissions, color = type))+ ## plot year/Emissions for typeBaltimore and color based on type
-  ggtitle("PM2.5 Emission by Type: Baltimore, MD (1999-2008)") ##Use this title for the plot
+  ggtitle("PM2.5 Emission by Type: Baltimore City, MD (1999-2008)") ##Use this title for the plot
 
 
 g + 
